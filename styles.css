@@ -155,10 +155,70 @@ nav {
     box-shadow: 0 4px 10px rgba(230, 57, 70, 0.2);
 }
 
-footer { padding: 60px 0; text-align: center; border-top: 1px solid #222; }
-.social-links a { color: var(--text-white); margin: 0 15px; font-size: 1.4rem; transition: var(--transition); }
-.social-links a:hover { color: var(--accent-red); }
-.copyright { margin-top: 30px; color: #555; font-size: 0.8rem; }
+.footer {
+    background-color: #050505;
+    padding: 70px 0 20px;
+    border-top: 1px solid #1a1a1a;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-text h2 {
+    font-size: 2rem;
+    color: var(--text-white);
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 22px;
+    background: var(--bg-card);
+    color: var(--text-white);
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #333;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.social-btn:hover {
+    background: var(--accent-red);
+    border-color: var(--accent-red);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(230, 57, 70, 0.2);
+}
+
+.social-btn i {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #1a1a1a;
+}
+
+.footer-bottom p {
+    color: #555;
+    font-size: 0.85rem;
+}
 
 @media (max-width: 768px) {
     nav { padding: 15px 5%; }
@@ -171,6 +231,21 @@ footer { padding: 60px 0; text-align: center; border-top: 1px solid #222; }
     .nav-links li { margin: 15px 0; }
     .menu-toggle { display: block; }
     .hero h1 { font-size: 2.8rem; }
+
+    .experience-timeline {
+        padding-left: 25px;
+        margin-left: 10px;
+    }
+    .experience-dot {
+        left: -34px;
+    }
+
+    .project-header {
+        flex-direction: column; 
+        align-items: flex-start;
+        gap: 15px; 
+        margin-bottom: 15px;
+    }
 }
 
 .experience-timeline {
