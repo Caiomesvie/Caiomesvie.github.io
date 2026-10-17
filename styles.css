@@ -315,7 +315,7 @@ a { color: var(--accent); }
 
 .stats {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     margin-top: 64px;
     background: var(--border);
@@ -676,7 +676,7 @@ a { color: var(--accent); }
         gap: 28px;
     }
 
-    .stats { grid-template-columns: 1fr 1fr; margin-top: 48px; }
+    .stats { grid-template-columns: 1fr; margin-top: 48px; }
     .projects { grid-template-columns: 1fr; }
     .cards { grid-template-columns: 1fr; }
 }
