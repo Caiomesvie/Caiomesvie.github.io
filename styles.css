@@ -562,6 +562,8 @@ a { color: var(--accent); }
 }
 .edu h3 { font-size: 1.3rem; letter-spacing: -0.01em; margin-bottom: 4px; }
 .edu p { color: var(--text-muted); }
+.edu-lang { margin-top: 18px; }
+
 .edu-status {
     display: inline-block;
     margin-top: 14px;
